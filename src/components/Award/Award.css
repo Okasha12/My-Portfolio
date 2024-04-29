@@ -1,0 +1,30 @@
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .card {
+    width: 250px;
+    padding: 60px;
+    background-color:red;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.838);
+    text-align: center;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}
+  .card>h2{
+    font-size: 40px;
+    color:white;
+  }
+  .card>p{
+    font-size: 90px;
+    color:white;
+    
+  }
+
+  

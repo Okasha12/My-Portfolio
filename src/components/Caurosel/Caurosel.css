@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color:black;
+  }
+  
+  .content {
+    display: flex;
+    max-width: 800px; 
+    
+  }
+  
+  .text {
+    
+    flex: 1; 
+    padding-right: 40px; 
+    color: aliceblue;
+    font-size: 25px;
+    
+  }
+  .text>h1{
+    font-size: 35px;
+    
+  }
+  
+  .image {
+    flex: 1; 
+    display: flex;
+    justify-content: flex-end; 
+    align-items: flex-end;
+    
+  }
+  
+  .image img {
+    max-width: 100%; 
+  }
+  
